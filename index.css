@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin-left: 0;
+    margin: 0px;
+}
+
+/* Header Section*/
+
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 9.5px;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: seashell important!;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+/* Banner Section */
+.banner {
+    content: '';
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url('./img/img-mission-background.jpg');
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.ban-back {
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban-back h2, .ban-back h4 {
+    margin: 5px;
+}
+
+/* Main Image Section */
+
+.container {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.container h2, .container h4 {
+    width: 1000px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+figure {
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Locations Section */
+
+.locations {
+    height: 500px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('./img/img-locations-background.jpg');
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#location {
+    width: 1000px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.big-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.small-container {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin-top: 15px;
+    background-color: black;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
